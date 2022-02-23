@@ -1,0 +1,60 @@
+* {
+   box-sizing: border-box;
+}
+
+/* start grid fallback */
+.grid__item {
+  display: inline-block;
+  width: 33%;
+}
+/* end grid fallback */
+
+@supports (display: grid) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /*grid-template-columns: 300px 300px 300px; fractions are better than pixels - they are responsive*/
+    grid-gap: 20px;
+    margin: 0;
+    text-align: center;
+  }
+  .grid__item {
+    background-color: var(--color-4-grid);
+    width: auto;
+    min-height: auto;
+    margin: 0;
+  }
+}
+
+/*Media queries: it ensures a responsive design--layouts to respond on all devices displayed on.
+The value 'all' specifies to which media it should be applied (which, in the above case, is “all media”).
+Other possible values include screen, print, and speech (the value all encompasses all of these)
+The 'max-width' property defines up to which screen size the rule should be applied.
+'min-width' can also be used in the same fashion.
+NB:Everything you want included in the media query needs to go between the curly brackets.*/
+
+@media all and (max-width: 500px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media all and (min-width: 500px) and (max-width: 750px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media all and (max-width: 750px) { /* this groups all identical elements and shortens the code */
+  .grid {
+    grid-gap: 10px;
+  }
+  .grid__item {
+    background-color: var(--color-4-grid);
+    width: auto;
+    min-height: auto;
+    margin: 0;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
