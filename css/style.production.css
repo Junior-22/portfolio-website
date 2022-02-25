@@ -150,7 +150,7 @@ button {
   border-bottom: 2px solid rgba(0, 0, 0, 0.2);
   -webkit-transition-duration: 0.5;
   -o-transition-duration: 0.5;
-  transition-duration: 0.5;
+  transition-duration: 0.5s;
   -webkit-transition-property: opacity;
   -o-transition-property: opacity;
   transition-property: opacity;
@@ -168,7 +168,7 @@ button {
   border-bottom: 2px solid rgba(0, 0, 0, 0.2);
   -webkit-transition-duration: 0.5;
   -o-transition-duration: 0.5;
-  transition-duration: 0.5;
+  transition-duration: 0.5s;
   -webkit-transition-property: opacity;
   -o-transition-property: opacity;
   transition-property: opacity;
