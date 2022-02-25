@@ -1,15 +1,11 @@
-* {
-   box-sizing: border-box;
-}
-
 .profile {
-   max-width: 700px;
-   margin: 0 auto;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .profile__picture {
-   float: left;
-   width: 250px;
-   height: auto;
-   margin-right: 40px;
+  float: left;
+  width: 250px;
+  height: auto;
+  margin-right: 40px;
 }
