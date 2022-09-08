@@ -6,12 +6,12 @@
 */
 
 :root {
-  --background-color-blue: #e3f3fb;
+  --background-color-blue: #92a8d1;
   --text-color-gray: #33383a;
   --color-1-red: #621c12;
   --color-2-green: #1b4a11;
   --color-3-green: #0b7470;
-  --color-4-grid: #acb300;
+  --color-4-grid: #eee8aa;
   --font-weight-heading: 500;
 }
 
@@ -21,8 +21,8 @@
 }
 
 body {
-  background-color: #e3f3fb;
-  font-family: 'Hahmlet', sans-serif;
+  background-color: #92a8d1;
+  font-family: "Hahmlet", sans-serif;
   color: #33383a;
   font-weight: 300;
   font-size: 16px;
@@ -290,12 +290,41 @@ button:focus,
   }
 
   .grid__item {
-    background-color: #acb300;
+    background-color: #eee8aa;
     width: auto;
     min-height: auto;
     margin: 0;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 25px;
+    position: realtive;
+    display: inline-block;
+    text-align: center;
   }
 }
+
+/* .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33.3% 10px 33.3% 10px 33.3%;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-gap: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.grid__item {
+  background-color: #eee8aa;
+  width: auto;
+  min-height: auto;
+  margin: 0;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 25px;
+  position: realtive;
+  display: inline-block;
+  text-align: center;
+} */
 
 @media all and (max-width: 500px) {
   .grid {
@@ -317,10 +346,16 @@ button:focus,
   }
 
   .grid__item {
-    background-color: #acb300;
+    background-color: #eee8aa;
     width: auto;
     min-height: auto;
     margin: 0;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 25px;
+    position: realtive;
+    display: inline-block;
+    text-align: center;
   }
 
   h1 {

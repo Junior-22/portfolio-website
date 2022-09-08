@@ -7,7 +7,7 @@ Secondary Color (green): #1b4a11;
  */
 
 :root {
-  --background-color-blue: #e3f3fb;
+  --background-color-blue: #92a8d1;
   --text-color-gray: #33383a;
   --color-1-red: #621c12;
   --color-2-green: #1b4a11;
@@ -22,7 +22,7 @@ Secondary Color (green): #1b4a11;
 
 body {
   background-color: var(--background-color-blue);
-  font-family: 'Hahmlet', sans-serif;
+  font-family: "Hahmlet", sans-serif;
   color: var(--text-color-gray);
   font-weight: 300;
   font-size: 16px;
