@@ -18,5 +18,5 @@ A responsive website using HTML and CSS that showcases my portfolio, which inclu
 
 Any tips, advice or guidance is much appreciated
 
-Email: <a href="mailto:fonwofrancis@gmail.com">fonwofrancis@gmail.com</a>
-Webpage: https://junior-22.github.io/portfolio-website/
+- Email: <a href="mailto:fonwofrancis@gmail.com">fonwofrancis@gmail.com</a>
+- Webpage: https://junior-22.github.io/portfolio-website/
