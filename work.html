@@ -1,110 +1,191 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Junior's projects</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Junior's projects</title>
-  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.production.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+  <body>
+    <header class="page-header">
+      <img
+        src="img/logo.jpg"
+        width="100"
+        height="100"
+        class="page-header__item"
+        alt="Junior's logo"
+      />
 
-<body>
+      <nav class="page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a
+              href="index.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item--active"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item"
+              >About me</a
+            >
+          </li>
+          <!-- link to new work page -->
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list__item"
+              >Work</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-  <header class="page-header">
-    <img src="img/logo.jpg" width="100" height="100" class="page-header__item" alt="Junior's logo">
-
-    <nav class="page-header__item">
-      <ul role="menubar" class="navigation-list">
-        <li role="presentation">
-          <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
-        </li>
-        <li role="presentation">
-          <a href="about.html" role="menuitem" class="navigation-list__item">About me</a>
-        </li>
-        <!-- link to new work page -->
-        <li role="presentation">
-          <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
-        </li>
-        <li role="presentation">
-          <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-
-  <section class="body">
-    <h1>Achievements</h1>
-    <div class="grid">
-      <div class="grid__item">
-        <h2>Pokedex-App</h2>
-        <p>
-          I built a small web application with HTML, CSS, and JavaScript which loads data from an external API and
-          enables the viewing of data points in detail.
-        </p>
-        <a href="https://github.com/Junior-22/Pokedex-App">View on Github</a>
-        <br>
-        <a href="https://junior-22.github.io/Pokedex-App/">Visit the site</a>
+    <section class="body">
+      <h1>Achievements</h1>
+      <div class="grid">
+        <div class="grid__item">
+          <h2>Pokedex-App</h2>
+          <!-- <img
+            src="img/pokedex.png"
+            class="project-img"
+            alt="Picture pokedex-app"
+          /> -->
+          <p>
+            I built a small Pokedex web app with Javascript, HTML, CSS, jQuery,
+            and the Bootstrap framework. The code has been formatted according
+            to ESLint rules. Users can search through a collection of Pokemons
+            that is loaded from an external API. Images and information about a
+            specific Pokemon is displayed in a modal view by clicking on the
+            Pokemons name.
+          </p>
+          <a href="https://github.com/Junior-22/Pokedex-App" target="_blank"
+            >Code</a
+          >
+          <br />
+          <a href="https://junior-22.github.io/Pokedex-App/" target="_blank"
+            >App</a
+          >
+        </div>
+        <div class="grid__item">
+          <h2>Server-side: movie_api</h2>
+          <p>
+            API built for a movie application which allows users to access a
+            database to receive information on movies. Also, the user can get
+            background information on the movies. The user can sign up, update
+            personal information and save/delete favorite movies to/from his/her
+            personal profile. It’s written in Node.js and it's packages are
+            stored in a database built using MongoDB.
+          </p>
+          <!-- <a href="https://github.com/Junior-22/movie_api">View on Github</a> -->
+        </div>
+        <div class="grid__item">
+          <h2>React: movie-app-client</h2>
+          <p>
+            The web application, created with React.js and Sass, will provide
+            users with access to information about different movies, directors,
+            and genres. Users will be able to sign up, update their personal
+            information, and create a list of their favorite movies. it`s based
+            on its existing server-side code (REST API and database).
+          </p>
+          <a
+            href="https://github.com/Junior-22/movie-app-client"
+            target="_blank"
+            >Code</a
+          >
+          <br />
+          <a href="https://movie-app-client.netlify.app/" target="_blank"
+            >App</a
+          >
+        </div>
+        <div class="grid__item">
+          <h2>Meet-App</h2>
+          <p>
+            This application is for users to find events based on their
+            location. It is a serverless progressive web application (PWA) using
+            React and built using the test-driven development (TDD) technique.
+            The app utilises Google's API Calendar to fetch events.
+          </p>
+          <a href="https://github.com/Junior-22/meet-app" target="_blank"
+            >Code</a
+          >
+          <br />
+          <a href="https://junior-22.github.io/meet-app/" target="_blank"
+            >App</a
+          >
+        </div>
+        <div class="grid__item">
+          <h2>Angular: myFlix-angular</h2>
+          <p>
+            The aim of this project is to build the client-side for an
+            application based on its existing server-side code (REST API and
+            database), with supporting documentation. It’s written in Angular
+            and deployed on gh-pages.
+          </p>
+          <a href="https://github.com/Junior-22/myFlix-angular" target="_blank">
+            Code</a
+          >
+          <br />
+          <a href="https://junior-22.github.io/myFlix-angular/" target="_blank">
+            App</a
+          >
+        </div>
+        <div class="grid__item">
+          <h2>React Native: Chat-app</h2>
+          <p>
+            The aim of this project is to build a chat app for mobile devices
+            using React Native. The app provides users with a chat interface and
+            options to share images and their location.
+          </p>
+          <a href="https://github.com/Junior-22/chat-app" target="_blank"
+            >Code</a
+          >
+        </div>
       </div>
-      <div class="grid__item">
-        <h2>movie_api</h2>
-        <p>
-          I created the backend of a movie application. It’s written in Node.js and it's packages and stored in a
-          database built using MongoDB.
-        </p>
-        <a href="https://github.com/Junior-22/movie_api">View on Github</a>
-      </div>
-      <div class="grid__item">
-        <h2>movie-app-client</h2>
-        <p>
-          I built the frontend of a movie application. It’s written in React.js and deployed on netlify.
-        </p>
-        <a href="https://github.com/Junior-22/movie-app-client">View on Github</a>
-        <br>
-        <a href="https://movie-app-client.netlify.app/">Visit the site</a>
-      </div>
-      <div class="grid__item">
-        <h2>Meet-App</h2>
-        <p>
-          This application is for users to find events based on their location. It is a serverless progressive web
-          application (PWA) using React and built using the test-driven development (TDD) technique. The app utilises
-          Google's API Calendar to fetch events.
-        </p>
-        <a href="https://github.com/Junior-22/meet-app">View on Github</a>
-        <br>
-        <a href="https://junior-22.github.io/meet-app/">Visit the site</a>
-      </div>
-      <div class="grid__item">
-        <h2>Mobile web application</h2>
-        <p>
-          Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've created
-          the HTML and CSS templates.
-        </p>
-        <a href="#">View on Github</a>
-      </div>
-      <div class="grid__item">
-        <h2>Mobile web application</h2>
-        <p>
-          Within this project, I was responsible for the frontend. It’s written in React.js. Additionally, I've created
-          the HTML and CSS templates.
-        </p>
-        <a href="#">View on Github</a>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <footer class="page-footer">
-    <p>Find me on</p>
-    <div class="social-media">
-      <img src="img/linkedin_icon.svg" width="30" height="30" alt="Follow Junior on LinkedIn">
-      <img src="img/twitter_icon.svg" width="30" height="30" alt="Follow Junior on Twitter">
-      <img src="img/github_icon.svg" alt="Follow Junior on Github">
-    </div>
-  </footer>
-
-</body>
-
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="social-media">
+        <a href="https://github.com/Junior-22" target="_blank">
+          <img src="img/github_icon.svg" alt="Follow Junior on Github" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/francis-junior-kamto-fonwo-3b61b8142"
+          target="_blank"
+        >
+          <img
+            src="img/linkedin_icon.svg"
+            width="30"
+            height="30"
+            alt="Follow Junior on LinkedIn"
+          />
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+          <img
+            src="img/twitter_icon.svg"
+            width="30"
+            height="30"
+            alt="Follow Junior on Twitter"
+          />
+        </a>
+      </div>
+    </footer>
+  </body>
 </html>
