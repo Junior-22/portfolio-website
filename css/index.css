@@ -9,3 +9,27 @@
   height: auto;
   margin-right: 40px;
 }
+
+.profile-title>h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.profile-text {
+  text-align: justify;
+}
+
+.page-footer {
+  text-align: center;
+  border-top: solid 2px;
+}
+
+.footer-links {
+  margin-bottom: 15px;
+}
+
+.foot-link {
+  font-size: 30px;
+  margin: 10px;
+}
