@@ -38,54 +38,166 @@
   </header>
 
   <section class="body">
-    <div>
-      <h1>Welcome to my page</h1>
-      <p>
-        My name is Junior. I am studying <span>web</span> development in
-        Hamburg.
-      </p>
+    <div class="body-text">
+      <div>
+        <h2>Who I am</h2>
+        <p>
+          My name is Francis. I live in Hamburg, Germany. I recently obtained my Full-Stack web dev certification from
+          Careerfoundry. I love football, table tennis, and watching educative documentaries.
+        </p>
+      </div>
+
+      <div>
+        <h2>Why web dev</h2>
+        <p>
+          Web development is a fast-paced, challenging career centered on
+          creative problem-solving and continuous innovation.
+        </p>
+        <p>
+          Coding is a creative trade and one is encouraged to express him or
+          herself. Coding allows you to take all the ideas that you have in your
+          head and make them come to life.
+        </p>
+        <!-- <p>This page is about myself. This is what I enjoy doing:</p>
+        <ul>
+          <li>Front-end development</li>
+          <li>Back-end development</li>
+          <li>Test driven development</li>
+          <li>Football</li>
+        </ul> -->
+        <!-- <button type="button">My upcoming projects</button> -->
+        <a href="work.html" class="button" id="button-text"> Projects </a>
+        <a href="https://www.linkedin.com" target="_blank" class="button" id="button-text" download>
+          Download CV
+        </a>
+      </div>
     </div>
     <br />
 
-    <div>
-      <h2>Why I chose web development</h2>
-      <p>
-        Web development is a fast-paced, challenging career centered on
-        creative problem-solving and continuous innovation.
-      </p>
-      <p>
-        Coding is a creative trade and one is encouraged to express him or
-        herself. Coding allows you to take all the ideas that you have in your
-        head and make them come to life.
-      </p>
-      <p>This page is about myself. This is what I enjoy doing:</p>
+    <!--  -->
+
+    <!-- <div class="table">
+      <h2>My Expertise</h2>
+      <table class="center">
+        <thead>
+          <tr>
+            <th>Skills</th>
+            <th>Years of Experience</th>
+            <th>Level of Expertise</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>1</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>1</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>1</td>
+            <td>Beginner</td>
+          </tr>
+        </tbody>
+      </table>
+    </div> -->
+
+    <div class="myTable">
+      <h2>My Expertise</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Skills</th>
+            <th scope="col">Years of Experience</th>
+            <th scope="col">Level of Expertise</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>1</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>1</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>JavaScript (ES6+)</td>
+            <td>1</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>Bootstrap</td>
+            <td>1</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>React</td>
+            <td>1</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>React Native</td>
+            <td>1</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>Angular</td>
+            <td>1</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>Node.js</td>
+            <td>1</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>MongoDB</td>
+            <td>1</td>
+            <td>Beginner</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="wishlist">
+      <h2>Wishlist</h2>
       <ul>
-        <li>Front-end development</li>
-        <li>Back-end development</li>
-        <li>Test driven development</li>
-        <li>Football</li>
+        <li>Placement offer</li>
+        <li>Personal growth</li>
+        <li>Mentoring</li>
       </ul>
-      <!-- <button type="button">My upcoming projects</button> -->
-      <a href="work.html" class="button" id="button-text"> Projects </a>
-      <a href="https://www.linkedin.com" target="_blank" class="button" id="button-text" download>
-        Download CV
+    </div>
+
+  </section>
+
+  <footer class="page-footer">
+    <p>Find me on</p>
+    <div class="footer-links">
+      <a class="foot-link" href="https://github.com/Junior-22" target="_blank">
+        <img src="img/github_icon.svg" alt="Follow Junior on Github" />
+      </a>
+      <a class="foot-link" href="https://www.linkedin.com/in/francis-junior-kamto-fonwo-3b61b8142" target="_blank">
+        <img src="img/linkedin_icon.svg" width="30" height="30" alt="Follow Junior on LinkedIn" />
+      </a>
+      <a class="foot-link" href="https://twitter.com/" target="_blank">
+        <img src="img/twitter_icon.svg" width="30" height="30" alt="Follow Junior on Twitter" />
       </a>
     </div>
-    <br />
+  </footer>
 
-    <p>Here are a few technologies I've been working with recently:</p>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Javascript (ES6+)</li>
-      <li>React</li>
-      <li>React Native</li>
-      <li>Angular</li>
-      <li>Node.js</li>
-      <li>MongoDB</li>
-    </ul>
+  <script src="js/tota11y.min.js"></script>
+</body>
 
-    <svg id="about-picture" xmlns="http://www.w3.org/2000/svg" class="berlin-illustration" height="auto"
+</html>
+
+<!-- <svg id="about-picture" xmlns="http://www.w3.org/2000/svg" class="berlin-illustration" height="auto"
       viewBox="0 0 700 505" xmlns:xlink="http://www.w3.org/1999/xlink">
       <defs>
         <polygon id="a" points=".06 231.917 .06 .929 688.717 .929 688.717 231.917"></polygon>
@@ -1406,55 +1518,4 @@
         </path>
       </g>
     </svg>
-    <br />
-
-    <div class="table">
-      <h2>My Expertise</h2>
-      <table class="center">
-        <thead>
-          <tr>
-            <th>Skills</th>
-            <th>Years of Experience</th>
-            <th>Level of Expertise</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>HTML</td>
-            <td>1</td>
-            <td>Beginner</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>1</td>
-            <td>Beginner</td>
-          </tr>
-          <tr>
-            <td>JavaScript</td>
-            <td>1</td>
-            <td>Beginner</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <footer class="page-footer">
-    <p>Find me on</p>
-    <div class="footer-links">
-      <a class="foot-link" href="https://github.com/Junior-22" target="_blank">
-        <img src="img/github_icon.svg" alt="Follow Junior on Github" />
-      </a>
-      <a class="foot-link" href="https://www.linkedin.com/in/francis-junior-kamto-fonwo-3b61b8142" target="_blank">
-        <img src="img/linkedin_icon.svg" width="30" height="30" alt="Follow Junior on LinkedIn" />
-      </a>
-      <a class="foot-link" href="https://twitter.com/" target="_blank">
-        <img src="img/twitter_icon.svg" width="30" height="30" alt="Follow Junior on Twitter" />
-      </a>
-    </div>
-  </footer>
-
-  <script src="js/tota11y.min.js"></script>
-</body>
-
-</html>
+    <br /> -->
