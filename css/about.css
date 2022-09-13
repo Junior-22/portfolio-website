@@ -21,6 +21,30 @@ button:focus,
   opacity: 0.8;
 }
 
+.myTable {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.table {
+  border-color: rgba(241, 95, 95, 0.301);
+  border-radius: 20px;
+}
+
+.table td,
+.table th {
+  border: 1px solid;
+  padding: 8px;
+}
+
+th {
+  font-size: 26px;
+}
+
+td {
+  font-size: 20px;
+}
+
 /* animation keyframes */
 
 /* animation properties
@@ -84,7 +108,7 @@ button:focus,
   animation: 20s cloud-move-reverse infinite alternate linear;
 }
 
-.table {
+/* .table {
   text-align: center;
 }
 
@@ -98,4 +122,4 @@ button:focus,
   text-decoration: underline;
   text-decoration-thickness: 3px;
   font-size: 20px;
-}
+} */
