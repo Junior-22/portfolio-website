@@ -368,6 +368,143 @@ td {
   font-size: 20px;
 } */
 
+main {
+  min-height: 100%;
+  flex: 1;
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: justify-all;
+}
+
+.main--wideview {
+  max-width: 1200px;
+  background: #EDF5E1;
+  color: #05386B;
+}
+
+.content-inside-main {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-auto-rows: auto;
+  grid-auto-flow: dense;
+  gap: 30px;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+  font-family: sans-serif;
+}
+
+div.card {
+  display: flex;
+  flex-direction: column;
+}
+
+div.card__content p {
+  font-size: 1em;
+  line-height: 1.125;
+  min-height: 9em;
+}
+
+.card__image {
+  width: 100%;
+  height: 250px;
+  display: block;
+  justify-self: flex-start;
+  border-top: 2px solid #5CDB95;
+  border-right: 2px solid #5CDB95;
+  border-left: 2px solid #5CDB95;
+}
+
+.card__content {
+  flex: 1;
+  line-height: 1.5;
+  font-size: 0.9em;
+  padding: 0 15px 0 15px;
+  background: #EDF5E1;
+  border-right: 2px solid #5CDB95;
+  border-left: 2px solid #5CDB95;
+}
+
+.card__content>p:first-of-type {
+  padding-top: 5px;
+  margin: 0;
+}
+
+.card__content>p:last-of-type {
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.card__title {
+  /* justify-content: left; */
+  text-align: center;
+  font-size: 25px;
+  color: #05386B;
+  padding: 10px 0 5px 0;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  overflow: hidden;
+}
+
+.card__text {
+  text-align: justify;
+}
+
+.card__dev-skill-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 5px 0 5px 0;
+}
+
+.card__dev-skill-detail {
+  margin: 0.3em;
+  padding: 0.5em;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  max-width: 7em;
+  background: #5CDB95;
+  color: #05386B;
+  font-size: 0.8em;
+  text-align: center;
+  border-top-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+}
+
+.card__info {
+  padding: 10px 15px 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #379683;
+  background: #EDF5E1;
+  font-size: 0.8em;
+  border-bottom: 2px solid #5CDB95;
+  border-right: 2px solid #5CDB95;
+  border-left: 2px solid #5CDB95;
+}
+
+.card__info i {
+  font-size: 0.9em;
+  margin-right: 8px;
+}
+
 .grid__item {
   display: inline-block;
   width: 33%;
