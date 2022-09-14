@@ -37,90 +37,267 @@
     </nav>
   </header>
 
-  <section class="body">
-    <h1>Achievements</h1>
-    <div class="grid">
-      <div class="grid__item">
-        <h2>Pokedex-App</h2>
-        <!-- <img
-            src="img/pokedex.png"
-            class="project-img"
-            alt="Picture pokedex-app"
-          /> -->
-        <p>
-          I built a small Pokedex web app with Javascript, HTML, CSS, jQuery,
-          and the Bootstrap framework. The code has been formatted according
-          to ESLint rules. Users can search through a collection of Pokemons
-          that is loaded from an external API. Images and information about a
-          specific Pokemon is displayed in a modal view by clicking on the
-          Pokemons name.
-        </p>
-        <a href="https://github.com/Junior-22/Pokedex-App" target="_blank">Code</a>
-        <br />
-        <a href="https://junior-22.github.io/Pokedex-App/" target="_blank">App</a>
+  <main class="main--wideview">
+
+    <section class="content-inside-main">
+
+      <div>
+        <h1 class="main-title">Achievements</h1>
       </div>
-      <div class="grid__item">
-        <h2>Server-side: movie_api</h2>
-        <p>
-          API built for a movie application which allows users to access a
-          database to receive information on movies. Also, the user can get
-          background information on the movies. The user can sign up, update
-          personal information and save/delete favorite movies to/from his/her
-          personal profile. It’s written in Node.js and it's packages are
-          stored in a database built using MongoDB.
-        </p>
-        <!-- <a href="https://github.com/Junior-22/movie_api">View on Github</a> -->
+
+      <div class="card-wrapper">
+
+        <div class="card"
+          aria-label="React movie app. Contains information on project type, challenges, implementation, applied skills and further links">
+          <img class="card__image" src="img/movie-react.png" alt="example movie app with React" />
+          <div class="card__content">
+            <h5 class="card__title">React: movie-app-client</h5>
+            <p class="card__text">
+              The web application, created with React.js and Sass, will provide users with access to information about
+              different movies, directors, and genres. Users will be able to sign up, update their personal information,
+              and create a list of their favorite movies.
+              <br>
+              <br>
+              <span class="font-bold">Challenges</span>: Build RESTful API, implement extensive Redux
+              boilerplate code, deploy to Netlify, resolve deploy issues.
+              <br>
+              <br>
+              <span class="font-bold">Implementation</span>: Developed the backend & frontend using the MERN stack,
+              built RESTful API, applied MVC, implemented CORS, JWT
+              authentication and basic HTTP authorisation.
+            </p>
+            <br>
+            <section class="card__dev-skill-wrapper" aria-label="Tools used in the project">
+              <span class="card__dev-skill-detail">JavaScript</span>
+              <span class="card__dev-skill-detail">MongoDB</span>
+              <span class="card__dev-skill-detail">Mongoose</span>
+              <span class="card__dev-skill-detail">RESTful API</span>
+              <span class="card__dev-skill-detail">Express</span>
+              <span class="card__dev-skill-detail">React</span>
+              <span class="card__dev-skill-detail">Redux</span>
+              <span class="card__dev-skill-detail">Bootstrap</span>
+              <span class="card__dev-skill-detail">Postman</span>
+              <span class="card__dev-skill-detail">Heroku</span>
+              <span class="card__dev-skill-detail">Netlify</span>
+            </section>
+          </div>
+          <div class="card__info" aria-label="Links for further info on the project">
+            <div>
+              <a href="https://github.com/Junior-22/movie-app-client" class="card__button" target="_blank">Code</a>
+            </div>
+            <div>
+              <a href="https://movie-app-client.netlify.app/" class="card__button" target="_blank">App</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card"
+          aria-label="myFlix-angular. Contains information on project type, challenges, implementation, applied skills and further links">
+          <img class="card__image" src="img/movie-angular.png" alt="example myFlix-angular" />
+          <div class="card__content">
+            <h5 class="card__title">Angular: myFlix-angular</h5>
+            <p class="card__text">
+              This single-page application is built using Angular and utilizes the same serve-side code (RESTful API and
+              database) as the React movie app.
+              It was built to explore the differences between building the client-side with the MEAN compared to the
+              MERN stack.
+              <br>
+              <br>
+              <span class="font-bold">Challenges</span>: Learning TypeScript & Angular, understanding the structure.
+              <br>
+              <br>
+              <span class="font-bold">Implementation</span>: Built using the MEAN stack. Applied project management
+              techniques like Kanban Board, time estimation in story points and user flows. Configuration via Angular
+              CLI. Implementation of user validation and security measures (JWT). Applied double-binding, directives,
+              dependency injection, interpolation, attribute and structural directives, and routing. Visualized the
+              interfaces with Angular material. Documentation with TypeDoc.
+            </p>
+            <br>
+            <section class="card__dev-skill-wrapper" aria-label="Tools used in the project">
+              <span class="card__dev-skill-detail">TypeScript</span>
+              <span class="card__dev-skill-detail">Angular</span>
+              <span class="card__dev-skill-detail">Material</span>
+              <span class="card__dev-skill-detail">MongoDB</span>
+              <span class="card__dev-skill-detail">Express</span>
+              <span class="card__dev-skill-detail">Node</span>
+              <span class="card__dev-skill-detail">TypeDoc</span>
+            </section>
+          </div>
+          <div class="card__info" aria-label="Links for further info on the project">
+            <div>
+              <a href="https://github.com/Junior-22/myFlix-angular" class="card__button" target="_blank">Code</a>
+            </div>
+            <div>
+              <a href="https://junior-22.github.io/myFlix-angular/" class="card__button" target="_blank">App</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card"
+          aria-label="Meet-App. Contains information on project type, challenges, implementation, applied skills and further links">
+          <img class="card__image" src="img/meet-app.png" alt="example meet-app" />
+          <div class="card__content">
+            <h5 class="card__title">Meet-App</h5>
+            <p class="card__text">
+              A serverless, progressive web app (pwa), which gives users access to international dev gatherings
+              worldwide and allows filtering by location and number.
+              <br>
+              <br>
+              <span class="font-bold">Challenges</span>: Apply TDD approach, use testing libraries and solve
+              dependency issues with React 18. Integrate Google Calendar API, use AWS lambda, fulfill pwa
+              requirements, implement
+              alerts using onLine/offline state, visualize data with JS chart library.
+              <br>
+              <br>
+              <span class="font-bold">Implementation</span>: Developed using a TDD approach, fetches event list via
+              Meetup API, handles authentication (via Google Calendar API) and authorization (AWS lambda), visualizes
+              events (chart.js), OOP approach for alerts, is monitored with online APM Atatus.
+            </p>
+            <br>
+            <section class="card__dev-skill-wrapper" aria-label="I utilized these skills and tools in the project">
+              <span class="card__dev-skill-detail">JavaScript</span>
+              <span class="card__dev-skill-detail">React</span>
+              <span class="card__dev-skill-detail">Google API</span>
+              <span class="card__dev-skill-detail">Jest</span>
+              <span class="card__dev-skill-detail">Cucumber</span>
+              <span class="card__dev-skill-detail">Puppeteer</span>
+              <span class="card__dev-skill-detail">OAuth2</span>
+              <span class="card__dev-skill-detail">AWS</span>
+              <span class="card__dev-skill-detail">Atatus</span>
+              <span class="card__dev-skill-detail">chart.js</span>
+            </section>
+          </div>
+          <div class="card__info" aria-label="Links for further info on the project">
+            <div>
+              <a href="https://github.com/Junior-22/meet-app" class="card__button" target="_blank">Code</a>
+            </div>
+            <div>
+              <a href="https://junior-22.github.io/meet-app/" class="card__button" target="_blank">App</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card"
+          aria-label="Pokedex app. Contains information on project type, challenges, implementation, applied skills and further links">
+          <img class="card__image" src="img/pokedex.png" alt="example pokedex app" />
+          <div class="card__content">
+            <h5 class="card__title">Pokemon App</h5>
+            <p class="card__text">
+              I built a small Pokedex web app with Javascript, HTML, CSS, jQuery,
+              and the Bootstrap framework. The code has been formatted according
+              to ESLint rules. Users can search through a collection of Pokemons
+              that is loaded from an external API. Images and information about a
+              specific Pokemon is displayed in a modal view by clicking on the
+              Pokemons name.
+              <br>
+              <br>
+              <span class="font-bold">Challenges</span>: Fetch and use a third-party API, target the correct endpoints,
+              use the provided HTTP protocols. Navigate within Bootstrap.
+              <br>
+              <br>
+              <span class="font-bold">Implementation</span>: Connected the app to an external API. Developed the app to
+              be user-friendly, fully-responsive, as well as optimised for all screen sizes and browsers (incl.
+              polyfills for fetch and promise). Rules of accessibility have been followed.
+            </p>
+            <br>
+            <section class="card__dev-skill-wrapper" aria-label="Tools used in the project">
+              <span class="card__dev-skill-detail">JavaScript</span>
+              <span class="card__dev-skill-detail">HTML5</span>
+              <span class="card__dev-skill-detail">SCSS</span>
+              <span class="card__dev-skill-detail">Bootstrap</span>
+              <span class="card__dev-skill-detail">Google API</span>
+              <span class="card__dev-skill-detail">jQuery</span>
+              <span class="card__dev-skill-detail">ESLint</span>
+              <span class="card__dev-skill-detail">Prettier</span>
+              <span class="card__dev-skill-detail">Stylelint</span>
+            </section>
+          </div>
+          <div class="card__info" aria-label="Links for further info on the project">
+            <div>
+              <a href="https://github.com/Junior-22/Pokedex-App" class="card__button" target="_blank">Code</a>
+            </div>
+            <div>
+              <a href="https://junior-22.github.io/Pokedex-App/" class="card__button" target="_blank">App</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card"
+          aria-label="ovie-api. Contains information on project type, challenges, implementation, applied skills and further links">
+          <img class="card__image" src="" alt="example movie-api" />
+          <div class="card__content">
+            <h5 class="card__title">Server-side: movie_api</h5>
+            <p class="card__text">
+              API built for a movie application which allows users to access a database to receive information on
+              movies. Also, the user can get background information on the movies. The user can sign up, update personal
+              information and save/delete favorite movies to/from his/her personal profile. It’s written in Node.js and
+              it's packages are stored in a database built using MongoDB.
+              <br>
+              <br>
+              <span class="font-bold">Challenges</span>: Build on top of a non-relational database (MongoDB) to have
+              experience with working with such a database.
+              <br>
+              <br>
+              <span class="font-bold">Implementation</span>: Designed database schemas, created database with CRUD in
+              SQL, documented endpoints using Express, implemented CORS.
+            </p>
+            <br>
+            <section class="card__dev-skill-wrapper" aria-label="ools used in the project">
+              <span class="card__dev-skill-detail">JavaScript</span>
+              <span class="card__dev-skill-detail">Node</span>
+              <span class="card__dev-skill-detail">MongoDB</span>
+              <span class="card__dev-skill-detail">Mongoose</span>
+              <span class="card__dev-skill-detail">RESTful API</span>
+              <span class="card__dev-skill-detail">Express</span>
+              <span class="card__dev-skill-detail">Postman</span>
+            </section>
+          </div>
+          <div class="card__info" aria-label="Links for further info on the project">
+            <div>
+              <a href="https://github.com/Junior-22/movie_api" class="card__button" target="_blank">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card"
+          aria-label="Chat-app. Contains information on project type, challenges, implementation, applied skills and further links">
+          <img class="card__image" src="img/chat-app.jpg" alt="example chat-app" />
+          <div class="card__content">
+            <h5 class="card__title">React Native: Chat-app</h5>
+            <p class="card__text">
+              A chat app for mobile devices with a chat interface and options to take and share
+              pictures and the user's location on a Google map view.
+              <br>
+              <br>
+              <span class="font-bold">Challenges</span>: In the development process, I encountered bugs while using
+              expo, react-native and
+              firebase. In order to pinpoint the problem, I used console.logs all over the application and researched.
+              <br>
+              <br>
+              <span class="font-bold">Implementation</span>: The React Native app was developed with Expo.io. Gifted
+              Chat library was used to implement interfaces and navigation. Firebase was used to store messages,
+              images and for anonymous authentication.
+            </p>
+            <br>
+            <section class="card__dev-skill-wrapper" aria-label="Tools used in the project">
+              <span class="card__dev-skill-detail">JavaScript</span>
+              <span class="card__dev-skill-detail">React Native</span>
+              <span class="card__dev-skill-detail">GiftedChat</span>
+              <span class="card__dev-skill-detail">Firebase</span>
+              <span class="card__dev-skill-detail">Expo</span>
+            </section>
+          </div>
+          <div class="card__info" aria-label="Links for further info on the project">
+            <div>
+              <a href="https://github.com/Junior-22/chat-app" class="card__button" target="_blank">Code</a>
+            </div>
+          </div>
+        </div>
+
       </div>
-      <div class="grid__item">
-        <h2>React: movie-app-client</h2>
-        <p>
-          The web application, created with React.js and Sass, will provide
-          users with access to information about different movies, directors,
-          and genres. Users will be able to sign up, update their personal
-          information, and create a list of their favorite movies. it`s based
-          on its existing server-side code (REST API and database).
-        </p>
-        <a href="https://github.com/Junior-22/movie-app-client" target="_blank">Code</a>
-        <br />
-        <a href="https://movie-app-client.netlify.app/" target="_blank">App</a>
-      </div>
-      <div class="grid__item">
-        <h2>Meet-App</h2>
-        <p>
-          This application is for users to find events based on their
-          location. It is a serverless progressive web application (PWA) using
-          React and built using the test-driven development (TDD) technique.
-          The app utilises Google's API Calendar to fetch events.
-        </p>
-        <a href="https://github.com/Junior-22/meet-app" target="_blank">Code</a>
-        <br />
-        <a href="https://junior-22.github.io/meet-app/" target="_blank">App</a>
-      </div>
-      <div class="grid__item">
-        <h2>Angular: myFlix-angular</h2>
-        <p>
-          The aim of this project is to build the client-side for an
-          application based on its existing server-side code (REST API and
-          database), with supporting documentation. It’s written in Angular
-          and deployed on gh-pages.
-        </p>
-        <a href="https://github.com/Junior-22/myFlix-angular" target="_blank">
-          Code</a>
-        <br />
-        <a href="https://junior-22.github.io/myFlix-angular/" target="_blank">
-          App</a>
-      </div>
-      <div class="grid__item">
-        <h2>React Native: Chat-app</h2>
-        <p>
-          The aim of this project is to build a chat app for mobile devices
-          using React Native. The app provides users with a chat interface and
-          options to share images and their location.
-        </p>
-        <a href="https://github.com/Junior-22/chat-app" target="_blank">Code</a>
-      </div>
-    </div>
-  </section>
+    </section>
+
+  </main>
 
   <footer class="page-footer">
     <p>Find me on</p>
