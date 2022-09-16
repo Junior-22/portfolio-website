@@ -222,7 +222,7 @@ button:focus,
 ul .wish:before {
   content: '\2713';
   display: inline-block;
-  color: red;
+  color: #05386B;
   padding: 0 6px 0 0;
 }
 
