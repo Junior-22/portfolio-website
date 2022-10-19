@@ -125,6 +125,7 @@ a:active {
   width: 250px;
   height: auto;
   margin-right: 40px;
+  border-radius: 50%;
 }
 
 .profile-title>h1 {
